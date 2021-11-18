@@ -5,7 +5,7 @@ import department from './../models/department.js';
 
 
 //  connect to the database
-const sequelize = new Sequelize('business', 'maheshadmin', 'P@ssw01rd', {
+const sequelize = new Sequelize('business', 'myuser', 'P@ssw01rd', {
     host: 'localhost',
     port: 5433,
     dialect: 'postgres'
